@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  display:flex;
+  min-height: 100vh;
+  align-items:center;
+  justify-content:center;
+  background-color: #ffffff; /*linear-gradient(79deg,#ebd1e1,#d4f8d2 48%,#c9d9ef ); /* */
+  align-content:center;
+  flex-wrap:wrap;
+  flex-direction: row;
+
+}
+
+.auth-form-container, .Login-form, .Register-form {
+  display: flex;
+  flex-direction:column;
+  align-items: left;
+
+}
+
+label{
+text-align:left;
+padding: 0.1rem 0;
+background-color: #ffffff;
+
+}
+input{
+  margin: 0.2rem 0;
+  padding: 1rem;
+  border: #2976dc;
+  border-radius: 10px;
+  background-color: #98d6b1;
+}
+button {
+  border:rgb(12, 12, 13);
+  background-color: #2976dc;
+  padding: 6px;
+  border-radius: 30px;
+} 
+.link-btn{
+  background: none;
+  color: #0d13be;
+  text-decoration: underline;
+}
