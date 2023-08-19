@@ -1,0 +1,398 @@
+
+.App {
+  text-align: center;
+  display:flex;
+  min-height: 100vh;
+  align-items:center;
+  justify-content:center;
+  background-color: #ffffff; 
+  align-content:center;
+  flex-wrap:wrap;
+  flex-direction: row;
+
+}
+
+.auth-form-container, .Login-form, .Register-form {
+  display: flex;
+  flex-direction:column;
+  align-items: left;
+ 
+
+  
+  }
+  
+  .label, .input, .my-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+
+
+.my-image {
+  margin-top: 2px;
+  float: right;
+  margin-right: 20px;
+
+
+}
+label{
+text-align:left;
+margin-top: 0px ;
+margin-left:20px;
+background-color: #ffffff;
+
+}
+input{
+  margin: 20px;
+  padding:18px;
+  border: #2976dc;
+  border-radius: 10px;
+  background-color: #98d6b1;
+  width: 25%; 
+}
+button {
+  border:rgb(12, 12, 13);
+  background-color: #2976dc;
+  padding: 6px;
+  border-radius: 30px;
+  width: 25%; 
+} 
+.link-btn{
+  background: none;
+  color: #0d13be;
+  text-decoration: underline;
+  width: 25%; 
+}
+
+.homepage-header {
+  background-color: #86a2df;
+  padding: 6.5px;
+}
+
+.homepage-header ul {
+  list-style-type:circle;
+  margin: 10;
+  padding: 10;
+}
+
+.homepage-header li {
+  display:flex;
+  margin-right: 20px;
+}
+
+.homepage-header li a {
+  color: #333;
+  text-decoration: none;
+}
+
+button {
+  justify-content:center;
+  background-color: #0a0c7c;
+  border: none;
+  color: white;
+  padding: 30px 55px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-flex;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+button:hover {
+    animation: blink 0.5s infinite alternate;
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+  
+
+
+
+.homepage-header {
+  background-image: ('image 35.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+.homepage-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1 px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 150vh;
+}
+
+.AdminSign-label {
+  margin-top: 900px;
+  text-align:left;
+margin-top: 2400px ;
+margin-left:170px;
+background-color: #ffffff;
+}
+
+.AdminSign-input {
+  margin-top: 1500px;
+  margin: 20px;
+  padding:18px;
+  border: #2976dc;
+  border-radius: 10px;
+  background-color: #98d6b1;
+  width: 65%;
+  margin-left: 300px; 
+
+}
+
+.AdminSign-button {
+  justify-content:center;
+  background-color: #0a0c7c;
+  border: none;
+  color: white;
+  padding: 30px 55px;
+  text-align:center;
+  text-decoration: none;
+  display:inline-flex;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 60px;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 375px;
+  height: 80px;
+}
+
+.AdminSign-button:hover {
+  background-color: #044f04;
+}
+
+.AdminSign-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AdminSign-image-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px ;
+}
+
+.AdminSign-image {
+  max-width: 300%;
+  max-height: 300%;
+  margin-top: 150px ;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+}
+
+.request-button {
+  background-color: #070668;
+  color: white;
+  margin-left: 9cm;
+  border-radius: 10px;
+
+
+}
+
+.donate-button {
+  background-color: #800606;
+  color: white;
+  margin-right: 6cm;
+  border-radius: 10px;
+
+}
+
+.exit-button {
+  background-color: #f6f2f1;
+  color: rgb(10, 10, 10);
+  width:5%;
+  margin-right: 500px;
+  
+}
+
+.u-header{
+  display:inline;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding: 10px;
+  background-color: #f7f7f7;
+  color: rgb(6, 3, 3);
+
+}
+
+
+
+.UserRegister-container {
+
+  background-image: url('C:\Users\91812\blood_bank\src\image 27.png');
+  background-size:contain;
+  background-position: center;
+  background-repeat:repeat-x;
+  min-height: 90vh;
+}
+
+.UserRegister-form-container {
+ 
+  background: none;
+  padding: 30px;
+  border-radius: 10px;
+ 
+}
+
+.input-label-alt {
+  color: #333;
+  font-size: 1.2rem;
+  vertical-align: top;
+  background: none;
+}
+
+.input-label-alt:first-of-type {
+  margin-right: 10cm;
+}
+.label-pair-container > label {
+  color: #333;
+  font-size: 1.2rem;
+  flex-basis: 40%; /* set a fixed width */
+  margin-right: 1cm; /* add some spacing */
+}
+
+.label-pair-container > input {
+  flex-basis: 50%; /* set a fixed width */
+}
+
+.input-field-alt {
+  width: 6cm;
+  padding: 2px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: #b53030;
+  border-radius: 5px;
+  background-color: #c4c59f;
+  border: 1px solid #b53030;
+
+
+}
+
+.button-alt {
+  background-color: #a93211;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 8.9cm;
+  margin-top: 3cm;
+  
+}
+
+.button-alt:hover {
+  background-color: #d5c7d6;
+}
+.input-label-alt {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.input-field-alt {
+  display: inline-block;
+  width: 8cm;
+  margin-left: 4cm;
+  padding: 8px;
+
+}
+.reason-input {
+  width: 50%;
+  margin-left:0cm;
+  justify-content:left;
+}
+.UserOO-container {
+
+  background-image: url('C:\Users\91812\blood_bank\src\image 27.png');
+  background-size:contain;
+  background-position: center;
+  background-repeat:repeat-x;
+  min-height: 90vh;
+}
+
+.UserOO-form-container {
+ 
+  background: none;
+  padding: 30px;
+  border-radius: 10px;
+ 
+}
+
+.admin-sign-form {
+  position: absolute;
+  top: 5cm;
+  left: 20cm;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.admin-sign-label {
+  margin-bottom: 0.5rem;
+}
+
+.admin-sign-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-sign-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #0a61be;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+}
+
+.admin-sign-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.heading1 {
+  color: rgb(168, 14, 14);
+}
