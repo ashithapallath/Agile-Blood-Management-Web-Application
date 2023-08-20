@@ -1,32 +1,32 @@
 const ErrorHander = require("../utils/errorhandler");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const User = require("../models/userModel");
-const sendToken = require("../utils/jwtToken")
+const sendToken = require("../utils/jwtToken");
 
-//registering a user
+// Registering a user
+exports.registerUser = catchAsyncErrors(async (req, res, next) => {
+    const { name, email, password, confirmPassword } = req.body;
 
-exports.registerUser=catchAsyncErrors(async(req,res,next)=>{
+    if (password !== confirmPassword) {
+        return next(new ErrorHander("Passwords do not match", 400));
+    }
 
-
-    const{name,email,password}=req.body;
-
-    const user=await User.create({
+    const user = await User.create({
         name,
         email,
         password,
-        avatar:{
-            public_id:"sample id",
-            url:"profile pic url",
+        confirmPassword,
+        avatar: {
+            public_id: "sample id",
+            url: "profile pic url",
         },
-    
-
-    
-    
     });
-    sendToken(user, 201, res);
 
-  
+    sendToken(user, 201, res);
 });
+
+
+
 
 // Login User
 exports.loginUser = catchAsyncErrors(async (req, res, next) => {
