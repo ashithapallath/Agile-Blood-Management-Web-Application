@@ -1,0 +1,74 @@
+/* Table4.css */
+.table4-container {
+  position: absolute; /* Change to relative so items stay within the container */
+    width: 70%; /* Optional: Set a maximum width if needed */
+    top:3cm;
+}
+
+.requesst-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 250%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.requesst-content {
+  display: flex;
+}
+
+.profilse-icon {
+  margin-right: 10px;
+}
+
+.profilse-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.requesst-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.requesst-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.isd {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.buttonss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accept-buttons,
+.reject-buttons {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.accept-buttons {
+  background-color: #aee1b0;
+  color: white;
+  border: none;
+}
+
+.reject-buttons {
+  background-color: #cc8681;
+  color: white;
+  border: none;
+}
+
+.accept-button:hover,
+.reject-button:hover {
+  opacity: 0.8;
+}
