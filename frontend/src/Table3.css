@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Table3 Component Styles */
 
 .table3-container {
@@ -70,3 +71,77 @@
 .reject-button {
   background-color: #dc3545;
 }
+=======
+/* Table3 Component Styles */
+
+.table3-container {
+  position: absolute;
+  width: 70%;
+  top: 3cm;
+}
+
+.request-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.request-item {
+  box-sizing: border-box;
+  flex-basis: calc(25% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ebf0ff;
+}
+
+.profile-icon {
+  width: 90px;
+  height: 90px;
+  background-color: #b5b5b5;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.request-info {
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.age,
+.units,
+.blood-group {
+  font-size: 14px;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  display: block; /* Display info items as blocks to stack them vertically */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.accept-button,
+.reject-button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.reject-button {
+  background-color: #dc3545;
+}
+>>>>>>> 7d64e03c4859e197a114e9eb709868968aeee46e

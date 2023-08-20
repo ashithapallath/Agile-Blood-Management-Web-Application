@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Table1 Component Styles */
 
 .table-page {
@@ -46,4 +47,54 @@
   }
   
   /* Other styles as needed */
+=======
+/* Table1 Component Styles */
+
+.table-page {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    transition: transform 0.3s;
+    transform: translateX(0);
+  }
+  
+  .main-content {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .table-container {
+    position: absolute;
+    top: 1cm;
+    right: 5cm; /* Adjust the left position to 7cm */
+    /*width: calc(100% - 7cm); /* Adjust the width to fit the remaining space */
+    margin-top: 20px;
+  }
+  
+  .donors-table {
+    width: 250%;
+    border-collapse: collapse;
+  }
+  
+  .donors-table th,
+  .donors-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .donors-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Other styles as needed */
+>>>>>>> 7d64e03c4859e197a114e9eb709868968aeee46e
   

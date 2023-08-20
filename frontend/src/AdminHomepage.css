@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset some default styles */
 * {
   margin: 0;
@@ -83,3 +84,90 @@ body {
   align-items: center;
 }
 /* ... Other styles ... */
+=======
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Admin homepage container */
+.admin-homepage {
+  display: flex;
+  min-height: 500vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 280px;
+  background-color: #cdcede; /* Light rose color */
+  color: #e08080;
+  padding: 40px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-open {
+  transform: translateX(0);
+}
+
+.logo {
+  margin-bottom: 20px;
+  /* Add logo styling */
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar-item {
+  margin-bottom: 40px;
+}
+
+.sidebar-link {
+  text-decoration: dotted;
+  color: #e2e7ea;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  color: #ffa500;
+}
+
+.close-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 40%;
+  /* Add main content styling */
+}
+/* ... Other styles ... */
+
+.exit-button {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background-color: #780a0a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ... Other styles ... */
+>>>>>>> 7d64e03c4859e197a114e9eb709868968aeee46e
