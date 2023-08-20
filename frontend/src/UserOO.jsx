@@ -8,7 +8,7 @@ class UserOO extends Component {
     super(props);
     this.state = {
       firstName: '',
-      lastName: '',
+      address: '',
       email: '',
       bloodGroup: '',
       age: '',
@@ -40,7 +40,7 @@ class UserOO extends Component {
               <div className="form-column">
                 <div className="label-pair-container">
                   <label htmlFor="firstName" className="input-label-alt">First Name   </label>
-                  <label htmlFor="lastName" className="input-label-alt">Last Name</label>
+                  <label htmlFor="address" className="input-label-alt">Last Name</label>
                 </div>
                 <div className="label-pair-container">
                   <input
@@ -52,8 +52,8 @@ class UserOO extends Component {
                   />
                   <input
                     type="text"
-                    name="lastName"
-                    value={this.state.lastName}
+                    name="address"
+                    value={this.state.address}
                     onChange={this.handleInputChange}
                     className="input-field-alt"
                   />
@@ -155,7 +155,7 @@ class UserOO extends Component {
     super(props);
     this.state = {
       firstName: '',
-      lastName: '',
+      address: '',
       email: '',
       bloodGroup: '',
       age: '',
@@ -187,7 +187,7 @@ class UserOO extends Component {
                 <div className="form-column">
                   <div className="label-pair-container">
                     <label htmlFor="firstName" className="input-label-alt">First Name</label>
-                    <label htmlFor="lastName" className="input-label-alt">Last Name</label>
+                    <label htmlFor="address" className="input-label-alt">Address</label>
                   </div>
                   <div className="label-pair-container">
                     <input
@@ -199,8 +199,8 @@ class UserOO extends Component {
                     />
                     <input
                       type="text"
-                      name="lastName"
-                      value={this.state.lastName}
+                      name="address"
+                      value={this.state.address}
                       onChange={this.handleInputChange}
                       className="input-field-alt"
                     />

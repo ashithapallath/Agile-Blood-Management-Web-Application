@@ -1,0 +1,42 @@
+/* Dashboard Component Styles */
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .blood-stock {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .blood-groups {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .blood-group {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .blood-group img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .statistics {
+    flex: 1;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  

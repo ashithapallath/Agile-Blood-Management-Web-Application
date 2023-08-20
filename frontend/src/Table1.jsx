@@ -1,21 +1,21 @@
 import React from 'react';
-import './Table1.css'; // Import your CSS for styling
+import './Table2.css'; // Import your CSS for styling
 
 const Table1 = () => {
   return (
     <div className="table-page">
       <main className="main-content">
         <div className="table-container">
-          <h1>Donor Table</h1>
+          <h1>Donors Details</h1>
           <table className="donors-table">
             <thead>
               <tr>
                 <th>Name</th>
                 <th>Age</th>
-                <th>Date</th>
+                <th>Lat doanted Date</th>
                 <th>Blood Group </th>
                 <th>Weight</th>
-                <th>HB level</th>
+                <th>Height</th>
 
               </tr>
             </thead>
