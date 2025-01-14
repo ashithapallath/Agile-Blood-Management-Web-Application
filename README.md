@@ -1,6 +1,7 @@
 
 
-# Agile Blood Management Web Application
+# Agile Blood Management Web Application ![image](https://github.com/user-attachments/assets/f66ce5e2-a783-43c5-9b53-a0115be71939)
+
 
 The **Agile Blood Management Web Application** is designed to streamline the process of blood donation and management. It connects donors, recipients, and hospitals, offering a seamless and user-friendly interface for managing blood inventory, donations, and requests.
 
